@@ -8,3 +8,7 @@ Index file
    Description Subitem 2
 * Item 2
   Description2
+
+* some link to file1
+
+  hehe [[file:file1.org][mylink to file 1]] voila! $x_2 = y^3 \to \lim_{n+m} f(n-m)$ end.

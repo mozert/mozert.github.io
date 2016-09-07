@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-09-06 Tue 01:25 -->
+<!-- 2016-09-07 Wed 03:15 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title></title>
@@ -55,6 +55,28 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
@@ -69,6 +91,7 @@ for the JavaScript code in this tag.
 </ul>
 </li>
 <li><a href="#orgheadline4">Item 2</a></li>
+<li><a href="#orgheadline5">some link to file1</a></li>
 </ul>
 </div>
 </div>
@@ -105,6 +128,15 @@ Description Subitem 2
 <div class="outline-text-2" id="text-orgheadline4">
 <p>
 Description2
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline5" class="outline-2">
+<h2 id="orgheadline5">some link to file1</h2>
+<div class="outline-text-2" id="text-orgheadline5">
+<p>
+hehe <a href="file1.html">mylink to file 1</a> voila! \(x_2 = y^3 \to \lim_{n+m} f(n-m)\) end.
 </p>
 </div>
 </div>
